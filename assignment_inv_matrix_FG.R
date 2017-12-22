@@ -32,6 +32,7 @@ a
 
 b <- makeCacheMatrix(a)
 c <- cacheSolve(b)
+c
 a%*%c     # ok!
 d <- cacheSolve(b)
 d
